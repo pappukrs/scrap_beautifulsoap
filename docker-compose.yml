@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quote_scraper
+    restart: always
